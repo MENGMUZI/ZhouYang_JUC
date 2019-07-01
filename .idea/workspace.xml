@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19cf1ed5-6978-42c9-976b-278f36413c6a" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadOrderAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CallableDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,11 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReadWriteLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="206">
               <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CallableDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/TestStaticSeq.java" />
         <option value="$PROJECT_DIR$/src/ThreadOrderAccess.java" />
         <option value="$PROJECT_DIR$/src/ReadWriteLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/CallableDemo.java" />
       </list>
     </option>
   </component>
@@ -189,7 +201,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561985288025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561987201676" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="模块" />
@@ -209,16 +221,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLockDemo">
-    <configuration name="Lock_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lock_8" />
+  <component name="RunManager" selected="Application.CallableDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CallableDemo" />
       <module name="ZhouYang_JUC" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotifyWaitDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NotifyWaitDemo2" />
+    <configuration name="Lock_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lock_8" />
       <module name="ZhouYang_JUC" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableDemo" />
         <item itemvalue="Application.ReadWriteLockDemo" />
         <item itemvalue="Application.ThreadOrderAccess" />
         <item itemvalue="Application.TestStaticSeq" />
         <item itemvalue="Application.Lock_8" />
-        <item itemvalue="Application.NotifyWaitDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +362,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561872044690</updated>
-      <workItem from="1561872045942" duration="20015000" />
+      <workItem from="1561872045942" duration="21657000" />
     </task>
     <task id="LOCAL-00001" summary="多线程买票基础复习">
       <created>1561913543861</created>
@@ -363,7 +375,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20015000" />
+    <option name="totallyTimeSpent" value="21657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="827" extended-state="6" />
@@ -487,8 +499,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadWriteLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="206">
           <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
