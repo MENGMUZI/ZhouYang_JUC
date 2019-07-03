@@ -1,7 +1,5 @@
 import java.util.Random;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 /**
  * @author : mengmuzi
@@ -11,7 +9,8 @@ import java.util.concurrent.Future;
 public class ExecutorsDemo {
 
     public static void main(String[] args) {
-        testThreadPool1();
+        //testThreadPool1();
+        testThreadPool2();
     }
 
     public static void testThreadPool1(){
@@ -37,9 +36,27 @@ public class ExecutorsDemo {
             executorService1.shutdown();
         }
 
+    }
 
+    public static void testThreadPool2(){
 
+        ScheduledExecutorService service = Executors.newScheduledThreadPool(5);
+        ScheduledFuture<Integer> scheduledFuture = null;
+        try{
+            for (int i = 1; i <= 15 ; i++) {
 
+                scheduledFuture = service.schedule(()->{
+                    System.out.println(Thread.currentThread().getName());
+                    return new Random().nextInt(10);
+                },2,TimeUnit.SECONDS);
+                System.out.println("*************result: " + scheduledFuture.get());
+            }
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            service.shutdown();
+        }
 
     }
 }
