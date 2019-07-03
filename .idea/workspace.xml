@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19cf1ed5-6978-42c9-976b-278f36413c6a" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecutorsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,13 +32,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SemaphoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="397">
               <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ExecutorsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/SemaphereDemo.java" />
         <option value="$PROJECT_DIR$/src/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/ExecutorsDemo.java" />
       </list>
     </option>
   </component>
@@ -151,7 +166,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562165545951" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562168590848" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="模块" />
@@ -171,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreDemo">
+  <component name="RunManager" selected="Application.ExecutorsDemo">
     <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CallableDemo" />
       <module name="ZhouYang_JUC" />
@@ -193,8 +208,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadWriteLockDemo" />
+    <configuration name="ExecutorsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExecutorsDemo" />
       <module name="ZhouYang_JUC" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -294,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorsDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.ReadWriteLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +327,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561872044690</updated>
-      <workItem from="1561872045942" duration="28822000" />
+      <workItem from="1561872045942" duration="31625000" />
     </task>
     <task id="LOCAL-00001" summary="多线程买票基础复习">
       <created>1561913543861</created>
@@ -325,11 +340,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28822000" />
+    <option name="totallyTimeSpent" value="31625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="824" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
@@ -500,10 +514,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SemaphoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="397">
           <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExecutorsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
           </folding>
         </state>
       </provider>
